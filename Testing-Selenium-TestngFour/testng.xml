@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EbayTestSuite">
+<test name="EbayTest">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="ai.iamneo.assignmentfour.Testing_Selenium_TestngFour.AppTest" />
+        </classes>
+    </test>
+</suite>
